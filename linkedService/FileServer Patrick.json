@@ -1,0 +1,19 @@
+{
+	"name": "FileServer Patrick",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "\\\\52.157.217.166\\share",
+			"userId": "patrick",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "password"
+			}
+		}
+	}
+}
