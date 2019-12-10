@@ -6,7 +6,7 @@
 		"pipelines": [
 			{
 				"pipelineReference": {
-					"referenceName": "test",
+					"referenceName": "ssis",
 					"type": "PipelineReference"
 				}
 			}
