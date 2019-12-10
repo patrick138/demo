@@ -14,7 +14,7 @@
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
 			"blobPathBeginsWith": "/data/blobs/",
-			"blobPathEndsWith": "csv",
+			"blobPathEndsWith": ".csv",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/4d25caa3-5b28-47d1-9769-58f894c9d40c/resourceGroups/kpndemo/providers/Microsoft.Storage/storageAccounts/filesharekpn",
 			"events": [
