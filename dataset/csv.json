@@ -1,0 +1,20 @@
+{
+	"name": "csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer Patrick",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
