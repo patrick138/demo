@@ -25,6 +25,9 @@
 		},
 		"FileServer Patrick_properties_typeProperties_userId": {
 			"value": "patrick"
+		},
+		"trigger CSV_properties_typeProperties_scope": {
+			"value": "/subscriptions/4d25caa3-5b28-47d1-9769-58f894c9d40c/resourceGroups/kpndemo/providers/Microsoft.Storage/storageAccounts/filesharekpn"
 		}
 	}
 }

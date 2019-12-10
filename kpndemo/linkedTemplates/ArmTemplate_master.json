@@ -34,6 +34,10 @@
 			"type": "string",
 			"defaultValue": "patrick"
 		},
+		"trigger CSV_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/4d25caa3-5b28-47d1-9769-58f894c9d40c/resourceGroups/kpndemo/providers/Microsoft.Storage/storageAccounts/filesharekpn"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -81,6 +85,9 @@
 					},
 					"FileServer Patrick_properties_typeProperties_userId": {
 						"value": "[parameters('FileServer Patrick_properties_typeProperties_userId')]"
+					},
+					"trigger CSV_properties_typeProperties_scope": {
+						"value": "[parameters('trigger CSV_properties_typeProperties_scope')]"
 					}
 				}
 			},
