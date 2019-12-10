@@ -8,15 +8,6 @@
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
-		"kpndemo_properties_typeProperties_ssisProperties_catalogInfo_catalogServerEndpoint": {
-			"value": "sqlkpn.database.windows.net"
-		},
-		"kpndemo_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminUserName": {
-			"value": "patrick"
-		},
-		"kpndemo_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminPassword": {
-			"value": ""
-		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://kv-patrick.vault.azure.net/"
 		},
@@ -28,6 +19,15 @@
 		},
 		"trigger CSV_properties_typeProperties_scope": {
 			"value": "/subscriptions/4d25caa3-5b28-47d1-9769-58f894c9d40c/resourceGroups/kpndemo/providers/Microsoft.Storage/storageAccounts/filesharekpn"
+		},
+		"kpndemo_properties_typeProperties_ssisProperties_catalogInfo_catalogServerEndpoint": {
+			"value": "sqlkpn.database.windows.net"
+		},
+		"kpndemo_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminUserName": {
+			"value": "patrick"
+		},
+		"kpndemo_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminPassword": {
+			"value": ""
 		},
 		"containerUri": {
 			"value": ""
